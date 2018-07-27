@@ -24,7 +24,7 @@ def client(use_android_user_agent=True, *args, **kwargs):
 	log.debug(pformat(session.cookies))
 	return session
 
-def is_online():
-	req = client().get('http://1.1.1.1') # temp hack to check if connected to the internet
+def is_online(timeout=5):
+	req = client().get('http://1.1.1.1', timeout=timeout) # temp hack to check if connected to the internet
 	print('Online', req)
 	return req.ok

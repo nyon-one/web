@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='www',
-      version='1.2',
+      version='1.2.3',
       description='Utilities for Requests module',
       author='nyon.one',
       packages=['www'],

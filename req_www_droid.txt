@@ -1,0 +1,5 @@
+cython
+libxml2-dev
+libxslt-dev
+libcrypt-dev
+python-dev

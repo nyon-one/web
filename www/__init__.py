@@ -1,6 +1,8 @@
 from requests_html import *
 from pprint import (pformat, pprint)
 import logging
+from pathlib import Path
+from requests import *
 
 DEBUG = False
 ANDROID_USER_AGENT = {'User-Agent':'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36'}

@@ -6,5 +6,6 @@ setup(name='www',
       version='1.2.3',
       description='Utilities for Requests module',
       author='nyon.one',
+      install_requires=['requests-html'],
       packages=['www'],
      )
